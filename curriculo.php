@@ -1,3 +1,26 @@
+<?php
+function lerLinhaDados($numeroLinha) {
+    $caminhoDados = "dados.txt";
+    // Verifica se o Dados.txt existe
+    if (!file_exists($caminhoDados)) {
+        return "Dados não encontrado.";
+    }
+
+    // Lê todas as linhas do Dados
+    $linhas = file($caminhoDados, FILE_IGNORE_NEW_LINES);
+
+    // Ajusta o índice da linha (começa em 1 para o usuário)
+    $indice = $numeroLinha - 1;
+
+    // Verifica se a linha existe
+    if (isset($linhas[$indice])) {
+        return $linhas[$indice];
+    } else {
+        return "Linha $numeroLinha não encontrada.";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -12,15 +35,15 @@
 
     <header>
         <nav class="nav_header">
-            <a class="ah" href="curriculo.html">Curriculo</a>
-            <a class="ah" href="portfolio.html">Portfólio</a>
+            <a class="ah" href="curriculo.php">Curriculo</a>
+            <a class="ah" href="portfolio.php">Portfólio</a>
            
         </nav>
     </header>
     <div class="man man_cur">
         <div class="cont_cur">
             <div class="curriculo_pdf">
-                <iframe src="henrique_Cosme_da_Silva_DEV.pdf">
+                <iframe src="<?php echo lerLinhaDados(14)?>">
                     <p>Seu navegador não suporta iframes.</p>
                 </iframe>
             </div>
@@ -29,29 +52,20 @@
     <footer>
         <div class="fpainel1">
             <nav class="fnav_header">
-                <a class="ah" href="curriculo.html">Curriculo</a>
-                <a class="ah" href="portfolio.html">Portfólio</a>
-               
+                <a class="ah" href="curriculo.php">Curriculo</a>
+                <a class="ah" href="portfolio.php">Portfólio</a>
+                
             </nav>
         </div>
         <div class="fpainel2">
-            <h1>Habilidades Técnicas Fundamentais</h1>
-            <p>Domínio de Linguagens de Programação</p>
-            <p>Controle de Versão (Git)</p>
-            <p>Conhecimento de Banco de Dados</p>
-            <p>Desenvolvimento Web e APIs</p>
-            <p>Testes Automatizados</p>
-            <p>Princípios de Arquitetura e Design de Software
-            </p>
+            <h1><?php echo lerLinhaDados(6)?></h1>
+            <p><?php echo lerLinhaDados(8)?></p>
+            
         </div>
         <div class="fpainel3">
-            <h1>Habilidades Comportamentais e Profissionais</h1>
-            <p>Comunicação Eficiente</p>
-            <p>Capacidade de Aprendizado Contínuo</p>
-            <p>Trabalho em Equipe e Colaboração</p>
-            <p>Resolução de Problemas e Pensamento Analítico</p>
-            <p>Gerenciamento de Tempo e Organização</p>
-            <p>Experiência com Metodologias Ágeis</p>
+            <h1><?php echo lerLinhaDados(10)?></h1>
+            <p><?php echo lerLinhaDados(12)?></p>
+            
         </div>
         <div class="fpainel4">
             <div class="cpainel0">
@@ -61,7 +75,7 @@
                 <div class="cpainel05">
                     <div class="cpainel1">
 
-                        <div class="nomef">Henrique Cosme da Silva</div>
+                        <div class="nomef"><?php echo lerLinhaDados(2)?></div>
                     </div>
                     <div class="cpainel2">
                         <input type="text" class="input" placeholder="Me envie uma mensagem">

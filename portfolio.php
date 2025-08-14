@@ -29,28 +29,51 @@ function lerLinhaDados($numeroLinha)
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <nav class="nav_header">
+            <a class="ah" href="curriculo.php">Curriculo</a>
+            <a class="ah" href="portfolio.php">Portfólio</a>
 
-    <div class="man">
-        <div class="conteiner">
-            <div class="painel1">
-                <div class="img"></div>
+        </nav>
+    </header>
+
+    <div class="man_por">
+        <div class="pp1">
+            <div class="pp2">
+                <div class="pp3">
+                    <a href="<?php echo lerLinhaDados(16) ?>">
+                    <div class="img_so"></div>
+
+
+                    </a>
+                </div>
+                <div class="pp4">
+                    <a href="<?php echo lerLinhaDados(18) ?>">
+                        <div class="img_po"></div>
+                    </a>
+                </div>
             </div>
-            <div class="painel2">
-                <div class="titulo"><?php echo lerLinhaDados(2) ?></div>
-                <div class="descricao"><?php echo lerLinhaDados(4) ?></div>
-                <div class="spacer"></div>
-                <div class="botoes">
-                    <a href="curriculo.php"> Curriculo</a>
-                    <a href="portfolio.php">Portfólio</a>
+
+
+
+
+
+            <div class="pp5">
+                <div class="pp6">
+                    
+
+                </div>
+                <div class="pp7">
 
                 </div>
             </div>
         </div>
+
     </div>
     <footer>
         <div class="fpainel1">
@@ -88,6 +111,7 @@ function lerLinhaDados($numeroLinha)
             </div>
         </div>
     </footer>
+
 
 </body>
 

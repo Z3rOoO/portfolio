@@ -1,2 +1,59 @@
-henrique 
-cosme
+Nome:
+Henrique Cosme da Silva
+Descrição:
+🧑‍💻 Sobre Mim<br>Sou um desenvolvedor em início de carreira com 8 meses de experiência prática em programação. Durante esse tempo, estudei e desenvolvi projetos utilizando linguagens como HTML, CSS, JavaScript, PHP, Java e Python. Tenho me dedicado ao aprendizado contínuo, com foco em entender tanto o front-end quanto o back-end.<br><br>Meu objetivo é evoluir como desenvolvedor full stack, buscando sempre boas práticas de código, estruturação de projetos e resolução de problemas. Gosto de aprender na prática e já desenvolvi pequenas aplicações e páginas web para fixar os conhecimentos adquiridos.<br><br>Atualmente, estou à procura de oportunidades para aplicar e expandir minhas habilidades em projetos reais e colaborar com equipes de desenvolvimento.
+Habilidades Técnicas titulo:
+Habilidades Técnicas
+Habilidades Técnicas conteudo:
+Domínio de Linguagens de Programação<br>Controle de Versão (Git)<br>Conhecimento de Banco de Dados<br>Desenvolvimento Web e APIs<br>Testes Automatizados<br>Princípios de Arquitetura e Design de Software
+Habilidades Comportamentais titulo:
+Habilidades Comportamentais
+Habilidades Técnicas conteudo:
+Comunicação Eficiente<br>Capacidade de Aprendizado Contínuo<br>Trabalho em Equipe e Colaboração<br>Resolução de Problemas e Pensamento Analítico<br>Gerenciamento de Tempo e Organização<br>Experiência com Metodologias Ágeis
+rota do curriculo:
+henrique_Cosme_da_Silva_DEV.pdf
+link projeto 1:
+https://fernandosnchs.github.io/SophiAcademy/
+link projeto 2:
+https://zdr4kz.github.io/pobreroll/
+Curriculo Portifolio: Nome:
+HENRIQUE<br>COSME DA SILVA
+Idade:
+Idade: 20 anos
+Estado civil: 
+Estado civil: Solteiro
+Nacionalidade:
+Nacionalidade: Brasileiro
+Objetivo:
+Objetivo: Desenvolvedor de Sistemas
+LÍNGUAS:
+Inglês básico
+EDUCAÇÃO COMPLEMENTAR: nome da escola:
+System News
+conteudo do curso:
+Informática Aplicada com Web Design, Windows, Word, Excel, PowerPoint, Access, Corel Draw, Photoshop, HTML, JavaScript, Flash, Dreamweaver e datilografia.
+Periodo:
+| 02/09/2017 - 16/03/2019
+EDUCAÇÃO COMPLEMENTAR: nome da escola:
+Senai
+conteudo do curso:
+Planejamento e Dimensionamento de Redes de Computadores.
+Periodo:
+| 21/01/2023 - 25/02/2023
+conteudo do curso:
+Introdução ao Desenvolvimento em Java
+Periodo:
+| 11/04/2023 - 19/07/2023
+conteudo do curso:
+Mecânico de Produção veicular
+Periodo:
+| 24/07/2024 - **/07/2026
+conteudo do curso:
+Técnico em Desenvolvimento de Sistemas
+Periodo:
+| 21/01/2025 - **/07/2026
+Experiência: nome da empresa:
+Prometeon
+Descrição:
+Jovem aprendizagem - Programação da
+produção
