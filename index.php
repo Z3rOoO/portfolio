@@ -1,3 +1,29 @@
+<?php
+function lerLinhaDados($caminhoDados, $numeroLinha) {
+    // Verifica se o Dados.txt existe
+    if (!file_exists($caminhoDados)) {
+        return "Dados não encontrado.";
+    }
+
+    // Lê todas as linhas do Dados
+    $linhas = file($caminhoDados, FILE_IGNORE_NEW_LINES);
+
+    // Ajusta o índice da linha (começa em 1 para o usuário)
+    $indice = $numeroLinha - 1;
+
+    // Verifica se a linha existe
+    if (isset($linhas[$indice])) {
+        return $linhas[$indice];
+    } else {
+        return "Linha $numeroLinha não encontrada.";
+    }
+}
+
+$caminho = "dados.txt";
+echo lerLinhaDados($caminho, $linhaDesejada);
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -16,7 +42,7 @@
                 <div class="img"></div>
             </div>
             <div class="painel2">
-                <div class="titulo">Henrique Cosme da Silva</div>
+                <div class="titulo"><?php echo lerLinhaDados($caminho,1)?></div>
                 <div class="descricao">Lorem ipsum doddasd asdasdas in quam modi aut doloremque quia id vitae! Facilis,
                     alias.</div>
                 <div class="spacer"></div>
