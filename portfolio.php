@@ -65,11 +65,33 @@ function lerLinhaDados($numeroLinha)
 
             <div class="pp5">
                 <div class="pp6">
-                    
-
+                    <h1><?php echo lerLinhaDados(20) ?></h1>
+                    <p><?php echo lerLinhaDados(22) ?></p>
+                    <p><?php echo lerLinhaDados(24) ?></p>
+                    <p><?php echo lerLinhaDados(26) ?></p>
+                    <p><?php echo lerLinhaDados(28) ?></p>
+                    <p><?php echo lerLinhaDados(30) ?></p>
+                    <p><?php echo lerLinhaDados(56) ?></p>
+                    <p><?php echo lerLinhaDados(58) ?></p>
+                    <p><?php echo lerLinhaDados(60) ?></p>
+                    <p><?php echo lerLinhaDados(62) ?></p>
+                    <p><?php echo lerLinhaDados(64) ?></p>
+                    <p><?php echo lerLinhaDados(66) ?></p>
                 </div>
                 <div class="pp7">
-
+                <h1>Educação complementar</h1>
+                    <p><?php echo lerLinhaDados(32) ?></p>
+                    <p><?php echo lerLinhaDados(34) ?></p>
+                    <p><?php echo lerLinhaDados(36) ?></p>
+                    <p><?php echo lerLinhaDados(38) ?></p>
+                    <p><?php echo lerLinhaDados(40) ?></p>
+                    <p><?php echo lerLinhaDados(42) ?></p>
+                    <p><?php echo lerLinhaDados(44) ?></p>
+                    <p><?php echo lerLinhaDados(46) ?></p>
+                    <p><?php echo lerLinhaDados(48) ?></p>
+                    <p><?php echo lerLinhaDados(50) ?></p>
+                    <p><?php echo lerLinhaDados(52) ?></p>
+                    <p><?php echo lerLinhaDados(54) ?></p>
                 </div>
             </div>
         </div>

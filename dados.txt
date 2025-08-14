@@ -55,5 +55,12 @@ Periodo:
 Experiência: nome da empresa:
 Prometeon
 Descrição:
-Jovem aprendizagem - Programação da
-produção
+Jovem aprendizagem - Programação da produção
+Periodo:
+| 27/11/2023 - 03/07/2024
+nome da empresa:
+Mercedes-Benz
+Descrição:
+Jovem aprendizagem - Mecânico de Produção veicular
+Periodo:
+| 21/01/2025 - **/07/2026

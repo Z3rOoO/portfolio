@@ -74,8 +74,8 @@ header {
     justify-content: center;
     align-items: center;
     background: var(--back_header);
-    width: 30vw;
-    height: 15vw;
+    width: 50vw;
+    height: 25vw;
     padding: 10px;
     border-radius: 5px;
     gap: 10px;
@@ -503,4 +503,12 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+}
+h1{
+    font-size: 2vw;
 }
